@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="./jquery-3.5.1.min.js"></script>
+  <script src="js/routesDocApp.js"></script>
+  <script src="js/routesDocManager.js"></script>
+  <script src="js/routesDocClass.js"></script>
+  <script src="./data/routes_doc.js"></script>
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="container py-5 text-center">
+      <h1 class="display-1 text-info mb-4">TOYS API</h1>
+      <h2 class="h5 border-bottom border-1 pb-4">Free API for testing and prototyping</h2>
+    </div>
+  </header>
+  <main class="container-fluid mb-4">
+    <div class="titles container">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="p-4" style="background-color: rgb(241, 238, 238);">
+            <h3>Domain</h3>
+            <h4 class="text-success text-break">toysapi.herokuapp.com</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4" style="background-color: rgb(241, 238, 238);">
+            <h3>Request</h3>
+            <h4 class="text-success" id="id_endpoint"></h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4" style="background-color: rgb(241, 238, 238);">
+            <h3>Response</h3>
+            <h4 class="text-success" id="id_status"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="col-md-4 text-end mb-3" id="id_request_description">
+
+        </ul>
+        <div class="col-md-4" id="id_request_body">
+
+        </div>
+        <div class="col-md-4" id="id_request_responses">
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid bg-dark">
+    <div class="container py-4">
+      <div class="text-white-50 text-center">
+        All right reserved © Dvir Rabbani 2021
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

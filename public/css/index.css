@@ -1,0 +1,13 @@
+main .titles h3+div{
+  color:#4ba144;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  min-height: 50px;
+}
